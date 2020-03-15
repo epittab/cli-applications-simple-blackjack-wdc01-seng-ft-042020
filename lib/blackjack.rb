@@ -42,7 +42,7 @@ def hit?(card_total)
   if (user_choice == 's')
     
     elsif (user_choice == 'h')
-      deal_card()
+      card_total += deal_card()
 end
 
 def invalid_command
