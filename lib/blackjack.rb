@@ -30,7 +30,7 @@ end
 
 def initial_round
   # code #initial_round here
-  card_total
+  card_total = 0
   deal_card()
   deal_card()
   puts display_card_total()
