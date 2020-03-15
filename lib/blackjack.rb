@@ -63,7 +63,9 @@ def runner
   # code runner here
   welcome()
   card_total = initial_round()
-  prompt_user()
-  hit?()
+  while (card_total <= 21) do 
+    prompt_user()
+    hit?()
+  end 
 end
     
