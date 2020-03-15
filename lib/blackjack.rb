@@ -44,14 +44,16 @@ def hit?(card_total)
   elsif (user_choice == 'h')
     card_total += deal_card()
   else 
-    invalid_command()
+    invalid_command(card_total)
   end
+  card_total
 end
 
-def invalid_command
+def invalid_command(card_total)
   # code invalid_command here
   puts "Please enter a valid command"
   prompt_user()
+  card_total
 end
 
 #####################################################
