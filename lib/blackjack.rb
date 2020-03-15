@@ -53,7 +53,7 @@ def invalid_command()
   # code invalid_command here
   puts "Please enter a valid command"
   prompt_user()
-  card_total
+  
 end
 
 #####################################################
